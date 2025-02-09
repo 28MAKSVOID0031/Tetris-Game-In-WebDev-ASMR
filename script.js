@@ -1,4 +1,4 @@
-import { I, J, L, O, S, T, Z } from "./data";
+import { I, J, L, O, S, T, U, Z, W } from "./data";
 const cvs = document.getElementById("tetris");
 const ctx = cvs.getContext("2d");
 const scoreElement = document.getElementById("score");
@@ -49,7 +49,9 @@ const PIECES = [
     [O,"blue"],
     [L,"purple"],
     [I,"darkgoldenrod"],
-    [J,"darkorange"]
+    [J,"darkorange"],
+    [U, "crimson"],
+    [W, "darkviolet"]
 ];
 
 // generate random pieces
